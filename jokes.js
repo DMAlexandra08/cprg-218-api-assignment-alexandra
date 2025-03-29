@@ -45,3 +45,19 @@ misc.addEventListener('click', function () {
     });
 });
 
+pun.addEventListener('click', function() {
+    console.log("pun joke");
+    categoryTitle.textContent = "A Random Punny Joke 🤓";
+    fetch("https://v2.jokeapi.dev/Pun?safe-mode")
+    .then(response => response.json())
+    .then(date => {
+        console.log(data);
+        if(date.type === "single"){
+            joke.textContent = data.joke;
+        }
+        else if(date.type === "twopart"){
+            joke.textContent = data.setup + "..." + data.delivery;
+        }
+    });
+});
+
