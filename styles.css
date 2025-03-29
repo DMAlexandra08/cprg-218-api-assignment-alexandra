@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+h1{
+    background-color: antiquewhite;
+    border: 0.5rem solid lightblue;
+}
+
+#programming{
+    border: .5rem solid lightblue;
+    padding: 1rem;
+}
+
+#misc{
+    border: .5rem solid lightblue;
+    padding: 1rem;
+}
+
+#pun{
+    border: .5rem solid lightblue;
+    padding: 1rem;
+}
+
+#spooky{
+    border: .5rem solid lightblue;
+    padding: 1rem;
+}
+
+#christmas{
+    border: .5rem solid lightblue;
+    padding: 1rem;
+}
