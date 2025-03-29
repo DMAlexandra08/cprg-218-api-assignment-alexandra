@@ -47,7 +47,7 @@ misc.addEventListener('click', function () {
 
 pun.addEventListener('click', function () {
     console.log("pun joke");
-    categoryTitle.textContent = "A Random Punny Joke 🤓";
+    categoryTitle.textContent = "A Random Pun 🤓";
     fetch("https://v2.jokeapi.dev/joke/Pun?safe-mode")
     .then(response => response.json())
     .then(data => {
